@@ -1,0 +1,13 @@
+{
+  "name": "gearguard",
+  "version": "1.0.0",
+  "description": "GearGuard - Equipment Maintenance Tracker (Full-Stack)",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "npm run dev:backend & npm run dev:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build"
+  }
+}

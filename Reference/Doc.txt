@@ -1,0 +1,156 @@
+GearGuard is a system designed to track equipment, inventory, and maintenance activities from intake through reporting. It combines asset management, maintenance scheduling, inventory tracking, and reporting into one workflow.
+
+1. User Access & Entry
+
+Login / Sign-Up
+
+Users authenticate to access the system.
+
+New users register; returning users log in.
+
+After authentication, users land on the main dashboard.
+
+2. Main Dashboard
+
+The dashboard acts as the central hub and provides:
+
+High-level system status
+
+Quick actions (add equipment, log maintenance, update inventory)
+
+Alerts or indicators (e.g., overdue maintenance, low inventory)
+
+Navigation to all core modules
+
+3. Core Modules
+A. Equipment / Asset Management
+
+Create and manage equipment records
+
+Typical fields include:
+
+Asset name
+
+Category
+
+Manufacturer
+
+Model / Serial number
+
+Purchase date
+
+Condition / status
+
+Each asset links directly to:
+
+Maintenance history
+
+Inventory usage
+
+Associated suppliers
+
+B. Maintenance Tracking
+
+Log maintenance activities per asset
+
+Maintenance entries include:
+
+Date
+
+Type (routine, repair, inspection)
+
+Description / notes
+
+Technician or responsible party
+
+Cost (optional)
+
+Supports:
+
+Viewing maintenance history
+
+Identifying overdue or upcoming maintenance
+
+Tracking reliability and asset health over time
+
+C. Inventory Management
+
+Tracks parts, supplies, and consumables
+
+Inventory table includes:
+
+Item name
+
+Category
+
+Quantity on hand
+
+Minimum/threshold levels
+
+Cost per unit
+
+Inventory items can be:
+
+Linked to maintenance tasks
+
+Automatically reduced when used
+
+Flagged when stock is low
+
+D. Supplier / Vendor Management
+
+Stores supplier information
+
+Includes:
+
+Supplier name
+
+Contact details
+
+Items or services provided
+
+Suppliers can be linked to:
+
+Inventory items
+
+Maintenance work or purchases
+
+4. Reporting & Insights
+
+System generates reports such as:
+
+Maintenance history by asset
+
+Maintenance costs over time
+
+Inventory usage and shortages
+
+Asset performance and downtime
+
+Reports support better planning, budgeting, and preventive maintenance decisions
+
+5. Data Flow Summary
+
+Users log in → access dashboard
+
+Dashboard links to assets, maintenance, inventory, and suppliers
+
+Maintenance records update asset history and inventory levels
+
+Inventory connects to suppliers and maintenance usage
+
+All modules feed into reporting and analytics
+
+6. Purpose & Value
+
+GearGuard is designed to:
+
+Centralize maintenance and equipment data
+
+Reduce downtime through better tracking
+
+Prevent inventory shortages
+
+Improve accountability and record-keeping
+
+Provide actionable insights through reports
